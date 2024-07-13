@@ -1,0 +1,71 @@
+body,html{
+    height: 100%;
+    font-size:16px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height:1.8em;
+    color:#666;
+    margin:0;
+}
+.img1, .img2, .img3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1{
+    background-image:url(img/image1.jpg);
+    min-height: 100%;
+}
+
+.img2{
+    background-image:url(img/image2.jpg);
+    min-height: 400px;
+}
+
+.img3{
+    background-image: url(img/image3.jpg);
+    min-height: 400px;
+}
+
+section{
+    text-align: center;
+    padding: 70px 90px;
+}
+
+.text1{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.text2{
+    background-color: #282e34;
+    color: #ddd;
+}
+.text3{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.parallax{
+    position:absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.parallax .header-1{
+    background-color:rgba(255, 117, 168, 0.845);
+    color: rgb(255, 255, 255);
+    padding: 16px 60px;
+}
+
+.parallax .header{
+    background-color: transparent;
+}
